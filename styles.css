@@ -388,6 +388,31 @@ a {
 .card-header h3 {
     font-size: 1.3rem;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--text-muted);
+    transition: var(--transition);
+}
+
+.project-link:hover {
+    color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.tech-stack {
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
+    opacity: 0.85;
 }
 
 .card-body p {
@@ -434,6 +459,13 @@ a {
 .contact-card p {
     color: var(--text-muted);
     margin-bottom: 40px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 /* Footer */
