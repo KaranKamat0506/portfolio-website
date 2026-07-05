@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
                 // Adjust for navbar height
-                const yOffset = -100; 
+                const yOffset = -70; 
                 const y = targetElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
                 
                 window.scrollTo({
