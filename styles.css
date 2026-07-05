@@ -444,6 +444,51 @@ a {
     color: var(--text-muted);
 }
 
+/* Certifications */
+.certifications-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cert-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 24px;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    transition: var(--transition);
+}
+
+.cert-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px var(--card-hover);
+}
+
+.cert-icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--card-hover);
+    color: var(--accent);
+}
+
+.cert-details h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.cert-details p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
 /* Contact */
 .contact-section {
     text-align: center;

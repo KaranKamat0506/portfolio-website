@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karan Kamat | Data Engineer</title>
-    <meta name="description" content="Portfolio of Karan Kamat, a Data Engineer with 3+ years of experience building scalable data pipelines and ETL workflows.">
+    <meta name="description" content="Portfolio of Karan Kamat, a Data Engineer with 4 years of production experience building scalable data pipelines, streaming architectures, and Lakehouse solutions.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -20,6 +20,7 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
             </ul>
             <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
                 <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
@@ -35,7 +36,7 @@
                 <h1 class="title">Karan Kamat.</h1>
                 <h2 class="role">I build scalable data pipelines.</h2>
                 <p class="hero-desc">
-                    A Data Engineer based in Pune, Maharashtra with 3+ years of experience in creating robust, efficient data architectures and ETL workflows.
+                    Data Engineer with 4 years of production experience, independently owning 27 pipelines on Apache Spark, PySpark, Kafka, and Airflow. Delivered measurable impact: 93% reduction in streaming lag, 60% faster SQL batch processing, and 99.9% pipeline reliability.
                 </p>
                 <div class="hero-cta">
                     <a href="#contact" class="btn btn-primary">Get in Touch</a>
@@ -54,10 +55,10 @@
                     Hello! My name is Karan, and I enjoy constructing the hidden architecture that allows data to flow seamlessly across complex systems. My journey into data engineering started from a deep curiosity about how large-scale networks process, transform, and serve massive volumes of information without breaking.
                 </p>
                 <p>
-                    Fast-forward to today, I have over 3 years of hands-on experience architecting highly scalable data pipelines and robust ETL workflows. At Jio Platforms Ltd., my primary focus has been performance optimization. I recently achieved a 40% reduction in pipeline runtimes and a 60% boost in query execution speeds while handling over 1TB of intricate datasets using Apache Spark and PySpark. I strongly believe that elegant coding design and heavily tuned SQL are the foundations of truly reliable data infrastructures.
+                    Fast-forward to today, I have 4 years of production experience at Jio Platforms, independently owning 27 pipelines on Apache Spark, PySpark, Kafka, and Airflow. I've delivered measurable impact: a 93% reduction in streaming lag, 60% faster SQL batch processing, and 99.9% pipeline reliability across distributed workloads. I strongly believe that elegant coding design and heavily tuned SQL are the foundations of truly reliable data infrastructures.
                 </p>
                 <p>
-                    Beyond large-scale batch processing, I specialize in designing real-time steaming architectures using Apache Kafka—routinely managing high-velocity streams of 100K+ events per second—while establishing rigorous, automated data quality checks.
+                    Beyond large-scale batch processing, I'm experienced in Databricks Lakehouse (Medallion Architecture, Delta Lake, Unity Catalog), Kimball data modelling, CDC, and automated data quality frameworks. I specialize in designing real-time streaming architectures using Apache Kafka—routinely managing high-velocity streams of 100K+ events per second.
                 </p>
                 <p>
                     Currently, I am expanding my toolkit into the frontier of Generative AI. By actively exploring LLM Tool Calling, Model Context Protocol (MCP), LangChain, and Retrieval-Augmented Generation (RAG) frameworks, my goal is to push the boundaries of traditional architectures by bringing intelligent automation directly into data engineering workflows.
@@ -78,10 +79,12 @@
                         <h4>JIO PLATFORMS LTD. <span>| Navi Mumbai, Maharashtra</span></h4>
                         <p class="date">July 2022 – Present</p>
                         <ul>
-                            <li><strong>Data Pipeline & Optimization:</strong> Designed and implemented scalable data pipelines using Apache Spark and PySpark, processing over 1TB of data. Enhanced performance by 35–40% through ETL tuning.</li>
-                            <li><strong>SQL Development:</strong> Built efficient SQL queries, reducing processing time from 10 to 4 minutes and improving query performance by 60%.</li>
-                            <li><strong>Streaming & Scheduling:</strong> Streamed real-time data using Kafka (100K+ events/sec) and scheduled Spark batch jobs via Airflow, achieving 99.9% uptime and reducing data latency by 30%.</li>
-                            <li><strong>Collaboration & Mentorship:</strong> Used Git for PRs/code reviews (20% code quality boost). Mentored junior developers and conducted KT sessions, driving up team productivity.</li>
+                            <li><strong>Data Pipeline & Optimization:</strong> Designed and deployed distributed ETL/ELT pipelines on Apache Spark and PySpark processing 1TB+ of subscriber and transactional data daily; cut end-to-end pipeline runtime by 35–40% through partition tuning, broadcast joins, caching, and shuffle optimization.</li>
+                            <li><strong>SQL Development:</strong> Engineered complex SQL transformation logic for ELT workloads on Oracle SQL, slashing batch processing time from 10 minutes to 4 minutes (60% reduction); enforced data integrity and governance through schema validation and reconciliation checks.</li>
+                            <li><strong>Streaming Architecture:</strong> Constructed high-throughput Kafka streaming pipelines processing 100K+ events/sec, cutting DStream batch lag from 15 minutes to 1 minute (93% reduction) and enabling near-real-time delivery to downstream consumers.</li>
+                            <li><strong>Orchestration:</strong> Orchestrated 27 production batch and streaming Spark jobs via Apache Airflow DAGs, achieving 99.9% job success rate through retry logic, SLA-aligned scheduling, and dependency-aware alerting.</li>
+                            <li><strong>Data Quality:</strong> Embedded automated data quality checks (null, duplicate, threshold validations) across 27 production pipelines, catching anomalies upstream before they reached downstream BI and analytics consumers.</li>
+                            <li><strong>Collaboration & Mentorship:</strong> Standardized Git-based code review practices across cross-functional sprints, reducing post-merge defects by 20% and compressing release cycle time by 15%. Mentored two junior engineers in Spark performance tuning and Airflow DAG design, cutting new-hire time-to-productivity by 20%.</li>
                         </ul>
                     </div>
                 </div>
@@ -93,9 +96,8 @@
                         <h4>YARDI SOFTWARE INDIA <span>| Pune, Maharashtra</span></h4>
                         <p class="date">Jan 2022 – Jun 2022</p>
                         <ul>
-                            <li>Improved reporting efficiency by 25% by automating report generation using in-house tools.</li>
-                            <li>Developed SQL scripts that resolved 95% of client issues on the first attempt, cutting resolution time by 30%.</li>
-                            <li>Created complex SQL queries for faster data retrieval and significantly streamlined data workflows via automation.</li>
+                            <li>Optimized high-frequency SQL queries by eliminating redundant subqueries and introducing targeted indexes, reducing average data retrieval time by 25%.</li>
+                            <li>Resolved 95% of client-reported data issues on first attempt by authoring precise diagnostic SQL scripts, cutting average resolution time by 30% and improving client SLA adherence.</li>
                         </ul>
                     </div>
                 </div>
@@ -109,38 +111,68 @@
             </div>
             <div class="skills-container">
                 <div class="skill-category">
-                    <h3>Programming</h3>
+                    <h3>Programming Languages</h3>
                     <div class="skill-tags">
                         <span>SQL</span>
                         <span>Python</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Big Data & Streaming</h3>
+                    <h3>Big Data & Distributed Computing</h3>
                     <div class="skill-tags">
                         <span>Apache Spark</span>
                         <span>PySpark</span>
-                        <span>Databricks Lakeflow</span>
+                        <span>Databricks</span>
+                        <span>Delta Lake</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Workflow Orchestration</h3>
+                    <div class="skill-tags">
+                        <span>Apache Airflow</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Streaming Systems</h3>
+                    <div class="skill-tags">
                         <span>Apache Kafka</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Tools & Cloud</h3>
+                    <h3>Data Engineering Concepts</h3>
                     <div class="skill-tags">
-                        <span>AWS (S3)</span>
+                        <span>ETL/ELT</span>
+                        <span>Medallion Architecture</span>
+                        <span>Data Modelling</span>
+                        <span>Data Governance</span>
+                        <span>Data Lineage</span>
+                        <span>Data Quality</span>
+                        <span>CDC</span>
+                        <span>SCD</span>
+                        <span>Performance Tuning</span>
+                        <span>Data Integrity</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Version Control & DevOps</h3>
+                    <div class="skill-tags">
                         <span>Git</span>
-                        <span>PyCharm</span>
-                        <span>VSCode</span>
-                        <span>Cursor</span>
+                        <span>Azure DevOps REST API</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & Storage</h3>
+                    <div class="skill-tags">
+                        <span>AWS (S3, EC2)</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>GenAI (Exploratory)</h3>
                     <div class="skill-tags">
-                        <span>LLMs & Tool Calling</span>
+                        <span>LLM Tool Calling</span>
                         <span>MCP</span>
-                        <span>LangChain</span>
-                        <span>RAG</span>
+                        <span>LangChain (Basics)</span>
+                        <span>RAG (Fundamentals)</span>
                     </div>
                 </div>
             </div>
@@ -158,7 +190,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                         </a></h3>
                         <p class="date">Personal Project | Apr 2026 – May 2026</p>
-                        <p class="tech-stack">PySpark · Delta Lake · Databricks (Serverless) · Spark SQL · Unity Catalog</p>
+                        <p class="tech-stack">PySpark · Delta Lake · Databricks (Serverless) · Spark SQL · Python · Unity Catalog</p>
                     </div>
                     <div class="card-body">
                         <p>Architected an end-to-end Lakehouse using the Medallion Architecture (Bronze → Silver → Gold), processing 165K+ records across 20+ Delta tables with ACID transactions and time travel for data recovery and auditing.</p>
@@ -171,10 +203,57 @@
                     <div class="card-header">
                         <h3>Internal File Deployment Tracker</h3>
                         <p class="date">Jio Platforms Ltd. | Jul 2025 – Sep 2025</p>
+                        <p class="tech-stack">Python · Git · Azure DevOps REST API · JSON</p>
                     </div>
                     <div class="card-body">
-                        <p>Built an internal tool to identify and track files scheduled for migration by capturing developer names and container IDs from Git commit history.</p>
-                        <p>Integrated with Azure DevOps REST APIs enabling automated status tracking. Reduced manual tracking effort by 80% using Python and Git integrations.</p>
+                        <p>Built an internal Python tool that parsed Git commit history to identify files staged for environment promotion, capturing developer attribution and container IDs across distributed repositories.</p>
+                        <p>Integrated Azure DevOps REST APIs to pull commit and deployment metadata, eliminating manual release-tracking effort by 80% and giving release managers real-time deployment visibility.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section fade-in">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>B. Tech Computer Science and Engineering</h3>
+                        <h4>MIT School of Engineering <span>| Pune, Maharashtra</span></h4>
+                        <p class="date">Jul 2019 – Jun 2022</p>
+                        <p>CGPA: 7.82</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Diploma in Computer Engineering</h3>
+                        <h4>Cusrow Wadia Institute of Technology <span>| Pune, Maharashtra</span></h4>
+                        <p class="date">Aug 2016 – May 2019</p>
+                        <p>Percentage: 76.56%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section fade-in">
+            <div class="section-header">
+                <h2>Certifications</h2>
+                <div class="line"></div>
+            </div>
+            <div class="certifications-container">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                    </div>
+                    <div class="cert-details">
+                        <h3>Getting Started with Amazon Simple Storage Service (Amazon S3)</h3>
+                        <p>AWS Skill Builder</p>
+                        <p class="date">Apr 2026</p>
                     </div>
                 </div>
             </div>
